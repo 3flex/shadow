@@ -4,14 +4,6 @@
 ## [Unreleased]
 
 
-## [v9.0.0-beta2] (2024-11-28)
-
-**Fixed**
-
-- Revert "Migrate SimpleRelocator to using lazy properties" ([#1052](https://github.com/GradleUp/shadow/pull/1052))  
-  This fixes the relocation not working in `v9.0.0-beta1`.
-
-
 ## [v9.0.0-beta1] (2024-11-27)
 
 **Added**
@@ -29,7 +21,7 @@
 
 **Removed**
 
-- **BREAKING CHANGE:** Remove Develocity integration. ([#1013](https://github.com/GradleUp/shadow/pull/1013))
+- **BREAKING CHANGE:** Remove Develocity integration. ([#1014](https://github.com/GradleUp/shadow/pull/1014))
 
 **Fixed**
 
@@ -447,9 +439,7 @@ Instead, use the `enableRelocation = true` and `relocationPrefix = "<new package
 
 
 
-[Unreleased]: https://github.com/GradleUp/shadow/compare/9.0.0-beta2...HEAD
-[v9.0.0-beta2]: https://github.com/GradleUp/shadow/releases/tag/9.0.0-beta2
-[v9.0.0-beta1]: https://github.com/GradleUp/shadow/releases/tag/9.0.0-beta1
+[Unreleased]: https://github.com/GradleUp/shadow/compare/8.3.5...HEAD
 [v8.3.5]: https://github.com/GradleUp/shadow/releases/tag/8.3.5
 [v8.3.4]: https://github.com/GradleUp/shadow/releases/tag/8.3.4
 [v8.3.3]: https://github.com/GradleUp/shadow/releases/tag/8.3.3
